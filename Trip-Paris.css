@@ -1,0 +1,97 @@
+body
+{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.head-container
+{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom:50px;
+}
+.head-container h1
+{
+    display: flex;
+    font-size: 60px;
+    flex-direction: row;
+}
+.head-container h1::after,h1::before
+{
+    content:"";
+    border-bottom: 2px solid black;
+    flex: 0.4;
+    margin:auto;
+}
+.back-container
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.back-container i
+{
+    font-size: 35px;
+    color: red;
+}
+.back-container i span
+{
+    color:slategrey;
+    font-weight:bold;
+    margin-left: 10px;
+}
+.card-container
+{
+    height:330px;
+    width:380px;
+    margin: auto;
+    border:1px solid red;
+    border-radius:6px;
+    position: relative;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-heading
+{
+    margin-left:120px;
+    margin-top:30px;
+    color: red;
+}
+.card-heading h4
+{
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom:12px;
+}
+.card-content
+{
+    margin-left:120px;
+    margin-top:30px;
+    color: red;
+}
+.card-content h3
+{
+    font-size: 20px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.card-footer
+{
+    margin-left: 100px;
+    margin-top:20px;
+}
+.card-footer input
+{
+    height:17px;
+    width:17px;
+    margin-right:10px;
+    /* display: flex none; */
+}
+.card-footer label
+{
+    font-size: 20px;
+    font-weight: bold; 
+}
+.plus-icon 
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.blur
+{
+    filter: blur(6px);
+}
+.card-container-2
+{
+    position: absolute;
+    width:400px;
+    background-color:rgba(white,0.4);
+    height:200px;
+    top:250px;
+    left:450px;
+    justify-content: center;
+    border:1px solid red;
+    border-radius: 6px ;
+    text-align: center;
+    background-color:white;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-head-2
+{
+    margin: 20px;
+    font-size: 20px;
+    color: red;
+}
+.card-content-2
+{
+    margin:20px;
+}
+.card-content-2 input
+{
+    padding: 10px;
+    width:70%;
+    border:1px solid red;
+    border-radius: 6px ;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-foot-2 button
+{
+    padding:8px;
+    margin-top: 5px;
+    width:25%;
+    color:white;
+    border: none;
+    border-radius:20px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+

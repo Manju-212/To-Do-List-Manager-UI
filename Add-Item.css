@@ -1,0 +1,91 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.head-container
+{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   /* margin: auto; */
+}
+.header-title
+{
+    margin-bottom: 40px;
+    font-size: 30px;
+    margin-top:100px;
+}
+.header-add
+{
+   margin-top:130px;
+   margin-left: 10px;
+   font-size: 25px;
+}
+.Lists
+{
+    font-weight: lighter;
+    color:lightslategray;
+}
+.card-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.card
+{
+    width:220px;
+    margin-left:50px;
+    height:350px;
+    border:1px solid red;
+    border-radius: 6px ;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.card-header
+{
+    margin-left: 30px;
+    margin-top:30px;
+    color: red;
+}
+.card-header h4
+{
+   font-size: 25px;
+   font-weight: lighter;
+   margin-bottom:10px;
+}
+.card-content
+{
+    margin-left: 30px;
+    margin-top:30px;
+    color: red;
+}
+.card-content h5
+{
+   font-size: 25px;
+   font-weight: lighter;
+   text-decoration: line-through;
+   margin-bottom:10px;
+}
+.card-footer
+{
+    display: flex;
+    margin-left:10px;
+    margin-top: 20px;
+    align-items: center;
+    align-content: space-between;
+}
+.card-footer input
+{
+    height:20px;
+    width:20px;
+    margin-right:10px;
+    display: flex none;
+}
+.card-footer label
+{
+    font-size: 20px;
+    font-weight: 500;
+}
